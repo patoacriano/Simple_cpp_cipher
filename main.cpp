@@ -8,7 +8,7 @@ int main()
   int i,x,y;
   string str;
   cout<<endl<<"Digite uma mensagem: ";
-  cin>>str;
+  getline(cin,str)
   cout<<endl<<"Escolha um numero de criptografia: ";
   cin>>x;
   cout<<endl<<"Voce deseja\n[1]-Criptografar\n[2]-Descriptografar\n>";
